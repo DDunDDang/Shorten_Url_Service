@@ -38,4 +38,8 @@ public class ShortenUrl {
 
         return shortenUrlKey.toString();
     }
+
+    public void increaseRedirectCount() {
+        this.redirectCount = redirectCount + 1;
+    }
 }
